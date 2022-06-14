@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
 
       body: Column(
         children: [
-          Text("palash barman,",style: TextStyle(fontWeight: FontWeight.normal,color: Colors.white),)
+          Text("prodip barman ,",style: TextStyle(fontWeight: FontWeight.normal,color: Colors.white),)
         ],
       ),
     );
