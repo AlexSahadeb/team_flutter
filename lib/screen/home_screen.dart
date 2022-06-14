@@ -5,8 +5,14 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       backgroundColor: Colors.red,
+
+      body: Column(
+        children: [
+          Text("palajojdojfpi9ho,",style: TextStyle(fontWeight: FontWeight.normal,color: Colors.white),)
+        ],
+      ),
     );
   }
 }
