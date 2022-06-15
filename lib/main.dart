@@ -3,6 +3,9 @@ import 'package:flutter_application_1/screen/home_screen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
+
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+
 
       designSize: const Size(360, 690),
       minTextAdapt: true,
@@ -30,6 +34,7 @@ class MyApp extends StatelessWidget {
         );
       },
       child: HomePage());
+
   }
 }
 
