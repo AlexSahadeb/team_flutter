@@ -7,7 +7,13 @@ class DetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Text("Alex Sahadeb"),
+        child: Column(
+          children: [
+            Text("palash Chandra Barman ",style: TextStyle(fontWeight: FontWeight.bold),)
+            
+            
+          ],
+        )
       ),
     );
   }
