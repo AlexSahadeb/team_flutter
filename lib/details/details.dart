@@ -9,7 +9,7 @@ class DetailsPage extends StatelessWidget {
       body: Container(
         child: Column(
           children: [
-            Text("palash Chandra Barman ",style: TextStyle(fontWeight: FontWeight.bold),)
+            Text("Limon + Shafina  ",style: TextStyle(fontWeight: FontWeight.bold),)
             
             
           ],
